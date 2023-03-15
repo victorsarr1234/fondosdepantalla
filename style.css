@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #181818;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .image-container {
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	transition: border-color 0.5s;
+    border-color: aqua;
+  }
+  
+  .image-info {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .image-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .image-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #333;
+    border-bottom-left-radius: 50%;
+    border-bottom-color: aqua;
+    border-left-color: aqua;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-style: double;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #333;
+    color: white;
+
+  }
+  
+  .search-form button[type="submit"] {
+    padding: 10px;
+    background-color: aqua;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-form button[type="submit"]:hover {
+    background-color: rgb(65, 146, 146);
+  }
+h2 {
+    color: white;
+}  
+body {
+    background-color: #333;
+}  
+footer {
+    color: white;
+}
+a {
+    color: white;
+}
+.iniciodesesion {
+    border: solid;
+    border-color: black;
+}
+.login-register {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .login-register ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .login-register li {
+    margin-right: 20px;
+  }
+      
+
+    
